@@ -1,0 +1,69 @@
+.navContainer {
+  height: 113px;
+}
+
+.titleWrapper {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.buttonsWrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.logoStyle {
+  width: 260px;
+  object-fit: contain;
+}
+
+.desktopNavbar {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 100%;
+  padding: 0 180px;
+  gap: 46px;
+}
+
+.mobileNavbar {
+  display: none;
+}
+
+@media screen and (max-width: 750px) {
+  .logoStyle {
+    width: 110px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .desktopNavbar {
+    padding: 0px 34px;
+  }
+  .logoStyle {
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .authNavContainer {
+    padding: 0px 34px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logoStyle {
+    width: 260px;
+  }
+  .desktopNavbar {
+    display: none;
+  }
+  .mobileNavbar {
+    display: flex;
+    padding: 0px 34px;
+    height: 100%;
+    align-items: center;
+  }
+}

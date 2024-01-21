@@ -1,0 +1,7 @@
+public
+dist
+build
+node_modules
+src/generated
+
+.eslintrc.js

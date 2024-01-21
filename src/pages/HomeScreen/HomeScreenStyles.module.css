@@ -1,0 +1,119 @@
+.mainContainer {
+  width: 100%;
+  background: white;
+  height: 100%;
+  padding: 0px 180px;
+  box-sizing: border-box;
+}
+
+.searchWrapper {
+  padding: 64px 0px;
+  gap: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.textAndFilterContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.textContainer {
+  flex: 1;
+}
+
+.filterContainer {
+  display: none;
+}
+
+.leftFiltersContainer {
+  width: 187px;
+}
+
+.searchInputWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.filterAndCompanyWrapper {
+  display: flex;
+  height: 70%;
+  gap: 88px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.companyContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 23px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.imageCardStyle {
+  width: 260px;
+  height: 290px;
+}
+
+.searchContainer {
+  width: 400px;
+}
+
+@media screen and (max-width: 1380px) {
+  .searchWrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .textContainer {
+    width: 400px;
+  }
+  .filterContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+  }
+  .leftFiltersContainer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .mainContainer {
+    padding: 0px 34px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .textContainer {
+    width: 100%;
+  }
+  .searchContainer {
+    width: 100%;
+  }
+  .searchWrapper {
+    width: 100%;
+  }
+  .textAndFilterContainer {
+    width: 100%;
+  }
+  .searchInputWrapper {
+    width: 100%;
+  }
+  .imageCardStyle {
+    width: 99%;
+  }
+}

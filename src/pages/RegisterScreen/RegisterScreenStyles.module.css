@@ -1,0 +1,44 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.inputDataWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+.basicUserDataWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  gap: 22px;
+}
+
+.userTypeAndButtonWrapper {
+  margin-top: 22px;
+  gap: 22px;
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+}
+
+.footerWrapper {
+  margin-top: 150px;
+  display: flex;
+  width: 344px;
+  flex-direction: column;
+  gap: 22px;
+}

@@ -1,0 +1,33 @@
+.imageCardContainer {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.imageContainer {
+  width: 100%;
+  height: 75%;
+}
+.imageStyle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.addImageContainer {
+  width: 100%;
+  height: 75%;
+  background-color: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageCardComponent {
+  width: 100%;
+  height: 25%;
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

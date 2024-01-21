@@ -1,0 +1,62 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  border-top-left-radius: 21px;
+  border-top-right-radius: 21px;
+}
+
+.rowItems {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  z-index: 999;
+}
+
+.hamburgerContainer {
+  flex: 1;
+  padding: 5px 0px 0px 5px;
+}
+
+.hamburgerStyle {
+  width: 46px;
+  height: 46px;
+}
+
+.logoContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.profileContainer {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px 5px 0px 0px;
+}
+
+.tabsWrapper {
+  position: absolute;
+  bottom: 0px;
+  top: 48px;
+  z-index: 1;
+  width: 100%;
+}
+
+.tabsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebebeb;
+  border-bottom-left-radius: 21px;
+  border-bottom-right-radius: 21px;
+}
+
+.buttonsContainer {
+  padding: 10px 10px 14px 14px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
